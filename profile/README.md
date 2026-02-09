@@ -1,4 +1,4 @@
-# AI Robot Lab: Laboratorium Zastosowań AI i Robotów Humanoidalnych 🤖✨
+# Laboratorium zastosowań AI i robotów humanoidalnych
 
 > "Robotyka to nie tylko dziedzina nauki; to płótno dla sztuki, innowacji i postępu" – Rodney Brooks
 
