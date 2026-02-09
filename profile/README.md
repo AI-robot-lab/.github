@@ -2,11 +2,11 @@
 
 > "Robotyka to nie tylko dziedzina nauki; to płótno dla sztuki, innowacji i postępu" – Rodney Brooks
 
-Witaj w **AI Robot Lab** – interdyscyplinarnym centrum badawczym, gdzie granica między zaawansowaną mechaniką a empatią sztucznej inteligencji zaciera się każdego dnia. Skupiamy się na tym, by roboty humanoidalne stały się bezpiecznymi, sprawnymi i rozumiejącymi nas partnerami w codziennym życiu.
+Witaj w **AI Robot Lab** – interdyscyplinarnym centrum badawczo-rozwojowym, gdzie granica między zaawansowaną mechaniką, a empatią sztucznej inteligencji zaciera się każdego dnia. Skupiamy się na tym, by roboty humanoidalne stały się bezpiecznymi, sprawnymi i rozumiejącymi nas partnerami w codziennym życiu.
 
 ---
 
-## 🚀 Nasze Filary Badawcze
+## Nasze badania
 
 ### 1. Humanoid Locomotion & Manipulation
 Dążymy do pełnej autonomii ruchu i precyzji, której nie powstydziłby się chirurg (lub chociaż ktoś, kto potrafi podłączyć ładowarkę do auta).
@@ -20,7 +20,7 @@ Uczymy maszyny "czuć". Projektujemy systemy, które rozpoznają ludzkie emocje 
 
 ---
 
-## 🛠 Stack Technologiczny
+## Stack technologiczny
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble%2FJazzy-blue?logo=ros)
 ![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
@@ -29,7 +29,7 @@ Uczymy maszyny "czuć". Projektujemy systemy, które rozpoznają ludzkie emocje 
 
 ---
 
-## 📂 Kluczowe Projekty
+## Kluczowe projekty
 
 | Repozytorium | Opis | Status |
 | :--- | :--- | :--- |
@@ -40,7 +40,7 @@ Uczymy maszyny "czuć". Projektujemy systemy, które rozpoznają ludzkie emocje 
 
 ---
 
-## 🧑‍💻 Strefa Członka Zespołu (onboarding)
+## Strefa członka zespołu (onboarding)
 
 Jeśli właśnie dołączyłeś do AI Robot Lab – **witamy na pokładzie!**
 
@@ -56,7 +56,7 @@ Jeśli właśnie dołączyłeś do AI Robot Lab – **witamy na pokładzie!**
 
 ---
 
-## 💬 Komunikacja
+## Komunikacja
 
 * **Ogólne & Dev:** Zapraszamy na nasze kanały Slack/Discord (#dev-humanoid, #dev-affective).
 * **Sync:** Widzimy się w każdy piątek o 15:00 (sala SD.109 / Teams).
