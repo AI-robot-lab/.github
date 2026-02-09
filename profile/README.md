@@ -1,70 +1,66 @@
-#  Laboratorium zastosowań AI i robotów humanoidalnych
+# AI Robot Lab: Laboratorium Zastosowań AI i Robotów Humanoidalnych 🤖✨
 
-Witaj w centrum dowodzenia **AI Robot Lab**.
-Jesteśmy interdyscyplinarnym zespołem badawczym skupionym na dwóch filarach: **autonomicznym przemieszczaniu się robotów humanoidalnych** oraz **robotyce afektywnej (HRI)**. Naszym celem jest tworzenie maszyn, które nie tylko sprawnie poruszają się w ludzkim środowisku, ale także potrafią wchodzić w naturalne, empatyczne interakcje społeczne.
+> "Robotyka to nie tylko dziedzina nauki; to płótno dla sztuki, innowacji i postępu" – Rodney Brooks
 
-> **Widoczność:** Ta strona i przypięte repozytoria są widoczne tylko dla członków organizacji. Prosimy o nieudostępnianie kodu źródłowego (szczególnie modułów *proprietary*) na zewnątrz bez zgody PI (Principal Investigator).
+Witaj w **AI Robot Lab** – interdyscyplinarnym centrum badawczym, gdzie granica między zaawansowaną mechaniką a empatią sztucznej inteligencji zaciera się każdego dnia. Skupiamy się na tym, by roboty humanoidalne stały się bezpiecznymi, sprawnymi i rozumiejącymi nas partnerami w codziennym życiu.
 
 ---
 
-## Główne Obszary Badawcze
+## 🚀 Nasze Filary Badawcze
 
 ### 1. Humanoid Locomotion & Manipulation
-Programowanie robotów humanoidalnych pod kątem autonomii i precyzji.
-*   **Platformy:** Unitree G1 EDU,.
-*   **Stack technologiczny:** ROS 2 (Humble/Jazzy), C++, Python, Gazebo/MuJoCo.
-*   **Kluczowe zagadnienia:**
-    *   Planowanie ruchu całego ciała (Whole-Body Control).
-    *   Manipulacja precyzyjna (np. podłączanie ładowarek EV).
-    *   Nawigacja w nieustrukturyzowanym środowisku.
+Dążymy do pełnej autonomii ruchu i precyzji, której nie powstydziłby się chirurg (lub chociaż ktoś, kto potrafi podłączyć ładowarkę do auta).
+* **Główna platforma:** Unitree G1 EDU.
+* **Wyzwania:** Whole-Body Control (WBC), nawigacja w nieustrukturyzowanym terenie, precyzyjna manipulacja obiektami (np. misje ładowania EV).
 
-### 2. Affective Robotics & HRI
-Tworzenie systemów, które rozpoznają i symulują ludzkie emocje.
-*   **Technologie:** Computer Vision (Facial Action Coding System), LLMs (Large Language Models), Synteza mowy.
-*   **Kluczowe zagadnienia:**
-    *   Wykrywanie stanu emocjonalnego użytkownika w czasie rzeczywistym.
-    *   Generowanie gestów i mimiki robota (Non-verbal communication).
-    *   Etyka w interakcji człowiek-robot.
+### 2. Affective Robotics & HRI (Human-Robot Interaction)
+Uczymy maszyny "czuć". Projektujemy systemy, które rozpoznają ludzkie emocje i odpowiadają na nie w sposób naturalny.
+* **Technologie:** CV (Facial Action Coding System), LLMs, synteza mowy.
+* **Wyzwania:** Analiza stanu emocjonalnego w czasie rzeczywistym, generowanie mimiki, etyka AI.
 
 ---
 
-## Getting Started (onboarding)
+## 🛠 Stack Technologiczny
 
-Jeśli jesteś nowym członkiem zespołu, wykonaj te kroki:
-
-1.  **Konfiguracja środowiska:**
-    *   Zainstaluj **Ubuntu 22.04 / 24.04**.
-    *   Skonfiguruj **ROS 2** zgodnie z [Instrukcją Wewnętrzną](link_do_wiki_lub_pliku).
-    *   Upewnij się, że masz dostęp do VPN laboratorium (dla zdalnego dostępu do robotów) \\ kiedyś.
-
-2.  **Dostęp do sprzętu:**
-    *   Zapoznaj się z procedurą **E-Stop** (wyłącznika bezpieczeństwa) przed uruchomieniem jakiegokolwiek fizycznego robota.
-    *   Rezerwuj czas pracy z robotem Unitree G1 w kalendarzu zespołu \\ kiedyś.
-
-3.  **Standardy kodu:**
-    *   Używamy **Git Flow** (gałęzie `feature/`, Pull Requests do `develop`/`main`).
-    *   Każdy PR musi przejść przez **Code Review** przynajmniej jednej osoby.
-    *   Przestrzegamy standardów PEP8 (Python) i Google Style Guide (C++).
+![ROS2](https://img.shields.io/badge/ROS2-Humble%2FJazzy-blue?logo=ros)
+![C++](https://img.shields.io/badge/C++-17%2F20-00599C?logo=cplusplus)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python)
+![Gazebo](https://img.shields.io/badge/Sim-Gazebo%20%7C%20MuJoCo-orange)
 
 ---
 
-## Kluczowe Repozytoria
+## 📂 Kluczowe Projekty
 
 | Repozytorium | Opis | Status |
 | :--- | :--- | :--- |
-| **[`unitree-g1-charging-mission`](/AI-robot-lab/unitree-g1-charging-mission)** | Autonomiczne ładowanie EV przez robota G1. Projekt flagowy. | Active |
-| **[`affective-core`](/AI-robot-lab/affective-core)** | Biblioteka do analizy emocji z twarzy. | Active |
-| **[`lab-simulation-env`](/AI-robot-lab/lab-simulation-env)** | Światy Gazebo/MuJoCo odwzorowujące nasze fizyczne laboratorium. | Active |
-| **[`ros2-utils`](/AI-robot-lab/ros2-utils)** | Wspólne narzędzia, skrypty i pliki konfiguracyjne Docker. | Active |
+| [**unitree-g1-charging-mission**](./unitree-g1-charging-mission) | Autonomiczne ładowanie pojazdów przez robota G1. | 🟢 Active |
+| [**affective-core**](./affective-core) | Silnik analizy i symulacji emocji w HRI. | 🟢 Active |
+| [**lab-simulation-env**](./lab-simulation-env) | Cyfrowe bliźniaki naszego laboratorium. | 🟡 Dev |
+| [**ros2-utils**](./ros2-utils) | Common tools & Docker configs. | 🔵 Stable |
 
 ---
 
-## Komunikacja i Wsparcie
+## 🧑‍💻 Strefa Członka Zespołu (onboarding)
 
-*   **Teams/Slack/Discord:** `#general` (ogłoszenia), `#dev-humanoid` (problemy z Unitree), `#dev-affective` (AI/Vision).
-*   **Weekly Stand-up:** Piątki, 15:00 (SD.109 / Teams).
-*   **Zgłaszanie awarii:** Jeśli uszkodzisz sprzęt – **zgłoś to natychmiast** na kanale `#hardware-issues`. Nie ukrywamy błędów, naprawiamy je!
+Jeśli właśnie dołączyłeś do AI Robot Lab – **witamy na pokładzie!**
+
+1.  **Środowisko:** Pracujemy na Ubuntu 22.04/24.04. Skonfiguruj ROS 2 zgodnie z naszym [Wiki/Przewodnikiem].
+2.  **Safety First:** Zanim dotkniesz fizycznego robota, musisz znać lokalizację **E-Stop**.
+3.  **Workflow:**
+    * Pracujemy w modelu **Git Flow** (`feature/` -> `develop`).
+    * Wszystkie PR-y wymagają **Code Review**.
+    * Trzymamy się standardów PEP8 oraz Google Style Guide.
+
+> [!IMPORTANT]
+> Repozytoria oznaczone jako *internal* są poufne. Nie udostępniaj kodu źródłowego poza organizację bez wyraźnej zgody PI (Principal Investigator).
 
 ---
 
-*"Building robots that move like us and feel with us."*
+## 💬 Komunikacja
+
+* **Ogólne & Dev:** Zapraszamy na nasze kanały Slack/Discord (#dev-humanoid, #dev-affective).
+* **Sync:** Widzimy się w każdy piątek o 15:00 (sala SD.109 / Teams).
+* **Hardware Issues:** Coś trzeszczy? Coś dymi? Pisz natychmiast na `#hardware-issues`.
+
+---
+*Realizujemy wizję robotyki, która rozumie człowieka.*
