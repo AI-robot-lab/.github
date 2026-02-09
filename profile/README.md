@@ -1,6 +1,6 @@
 # Laboratorium zastosowań AI i robotów humanoidalnych
 
-> "Robotyka to nie tylko dziedzina nauki; to płótno dla sztuki, innowacji i postępu" – Rodney Brooks
+> "Sporządzić mogę wszystko, co mi przyjdzie do głowy – mówił Mikromił – ale znów nie wszystko do niej przychodzi." – Stanisław Lem
 
 Witaj w **AI Robot Lab** – interdyscyplinarnym centrum badawczo-rozwojowym, gdzie granica między zaawansowaną mechaniką, a empatią sztucznej inteligencji zaciera się każdego dnia. Skupiamy się na tym, by roboty humanoidalne stały się bezpiecznymi, sprawnymi i rozumiejącymi nas partnerami w codziennym życiu.
 
